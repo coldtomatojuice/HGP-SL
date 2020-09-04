@@ -1,6 +1,9 @@
 # HGP-SL
 Hierarchical Graph Pooling with Structure Learning (Preprint version is available on [arXiv](https://arxiv.org/abs/1911.05954)).
 
+This Repository is forked from original cszhangzhen's version 'https://github.com/cszhangzhen/HGP-SL.git` <br>
+It only add Tox21 data and the script to run HGP-SL network with Tox21 <br>
+
 ![](https://github.com/cszhangzhen/HGP-SL/blob/master/fig/model.png)
 
 This is a PyTorch implementation of the HGP-SL algorithm, which learns a low-dimensional representation for the entire graph. Specifically, the graph pooling operation utilizes node features and graph structure information to perform down-sampling on graphs. Then, a structure learning layer is stacked on the pooling operation, which aims to learn a refined graph structure that can best preserve the essential topological information.
